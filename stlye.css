@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+
+body{
+    /* height: 100vh; */
+    padding: 16px;
+    background-color: #212529;
+}
+
+
+/* header */
+
+H1{
+    text-align: center;
+    color: whitesmoke;
+    /* font-size: 1.5rem; */
+}
+
+
+
+.nav-bar{
+    margin-top:20px;
+}
+
+.primary-btn{
+    border: none;
+    outline: none;
+    background: transparent;
+    margin: 5px;
+    border: 2px solid rgb(118, 189, 219);
+    padding: 30px 20px;
+    border-radius: 5px;
+    color: aliceblue;
+    transition: 0.4s ease-out;
+}
+
+.sorting-btn:hover{
+   border-color: green;
+   color: greenyellow;
+
+}
+
+.new-array-btn:hover{
+    border-color: blue;
+    color: blue;
+}
+
+.primary-btn:disabled{ 
+        border: none;
+        color: rgb(78, 24, 194);
+ }
+ 
+
+button{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+
+span{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 8px;
+    color: white;
+    font-size: 1rem;
+    margin: 5px;
+} 
+
+
+/* header-end */
+
+
+.flex-container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    transition: 2s all ease;
+}
+
+
+
+.flex-item{
+    background: cyan;
+    border: 1pt solid black;
+    width: 10px;
+    transition: 0.1s all ease;
+}
+
+.selected-btn{
+    background-color: rgb(34, 19, 171);
+    color: #ebe5ef !important;
+    box-shadow: 0px 0px 5px;
+}
